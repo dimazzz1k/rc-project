@@ -61,7 +61,7 @@ async def start(update: Update, ctx: ContextTypes.DEFAULT_TYPE) -> int:
         engine=engine,
         qrcode_model=QRCode,
         qrcode_id=qrcode.id,
-        bot_username="Ls7zE8xPngPE8hPF_bot"
+        bot_username="bot_username"
     )
     
     qrcode_generator.make_qrcode()
